@@ -41,7 +41,6 @@ requirements:
     - hdf5
     - zlib
     - python
-    - vs2017_runtime  # [win]
 
 test:
   imports:
