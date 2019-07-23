@@ -23,8 +23,8 @@ build:
 
 requirements:
   build:
-    - vs2017  # [win]
     - {{ compiler('cxx') }}  # [not win]
+    - vs2017_win-64  # [win]
     - cmake
   host:
     - python
