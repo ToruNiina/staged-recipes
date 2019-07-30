@@ -33,7 +33,6 @@ requirements:
     - gsl
     - boost
     - blas
-    - simplejson
   run:
     - libgcc-ng  # [linux]
     - libstdcxx-ng  # [linux]
